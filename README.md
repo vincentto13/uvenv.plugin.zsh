@@ -43,3 +43,9 @@ Besides new commands, the prompt will change as follow
 ```console
 ➜  coffee venv:[coffee]
 ```
+
+* If you'd now activate virtual env, the name will change its collor to yellow
+* When you've active virtualenv, but you changed directory to one that contains it's own virtualenv, you'll see something similar to:
+```console
+➜  simplist venv:[coffee|simplist]
+```

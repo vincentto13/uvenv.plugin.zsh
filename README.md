@@ -30,6 +30,16 @@ PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(virtualenv_prompt_info) 
 
 When you're done, the terminal would inform you about your virtualenv status, and give you some more commands.
 
+## Terminal examples
+
+Besides new commands, the prompt will change as follow
+
+* If you've not active virtualenv, and you're not in directory which contains virtualenv, the prompt would look like:
 ```console
 ➜  ~ venv:[None]
+```
+
+* If you've not active virtualenv, but the directory contains virtualenv inside. It will look like:
+```console
+➜  coffee venv:[coffee]
 ```

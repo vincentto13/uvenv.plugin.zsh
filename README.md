@@ -31,6 +31,5 @@ PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(virtualenv_prompt_info) 
 When you're done, the terminal would inform you about your virtualenv status, and give you some more commands.
 
 ```console
-foo@bar:~$ whoami
-foo
+➜  ~ venv:[None]
 ```
